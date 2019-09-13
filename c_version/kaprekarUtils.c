@@ -22,6 +22,9 @@
  * @return <code>true</code> if <code>n</code> is a Kaprekar Number,
  * <code>false</code> otherwise.
  */
+int main(int argc, char const *argv[]) {
+  /* code */
+
 int isKaprekar(int n) {
 
   if(n < 1) {
@@ -54,4 +57,6 @@ int isKaprekar(int n) {
   }
   return 0;
 
+}
+return 0;
 }
